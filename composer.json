@@ -1,0 +1,22 @@
+{
+    "name": "davislar/webhooks",
+    "description": "Git webhooks",
+    "homepage": "https://github.com/Davislar/git-webhooks",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Nogenko",
+            "email": "nogenkoworkmail@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0 || >=7.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Davislar\\WEBHOOKS\\": "src",
+        }
+    }
+}
